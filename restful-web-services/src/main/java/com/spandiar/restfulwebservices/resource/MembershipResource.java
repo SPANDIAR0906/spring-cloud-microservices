@@ -15,7 +15,7 @@ import com.spandiar.restfulwebservices.model.MembershipPlans;
 
 @RestController
 @RequestMapping("/library/membership")
-public class Membership {
+public class MembershipResource {
 	
 	@Autowired
 	private LibraryResource libraryController;
